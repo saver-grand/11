@@ -6,7 +6,7 @@
 
     sudo apt-get update
     cd /home
-    git clone https://github.com/saver-grand/11/o11_streamer
+    git clone https://github.com/saver-grand/11
     cd o11-OTT-Streamer
     chmod 777 ./o11_streamer
     ./o11_streamer
