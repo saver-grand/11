@@ -18,4 +18,4 @@ ENV PORT=123
 EXPOSE 123
 
 # Start app
-CMD ["./o11_streamer"]
+CMD ["./o11_v22b1-DRMStuff"]
