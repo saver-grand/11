@@ -11,11 +11,11 @@ WORKDIR /app
 COPY . .
 
 # Make binary executable
-RUN chmod +x ./o11v2Free
+RUN chmod +x ./https://github.com/saver-grand/11/blob/main/o11_v22b1-DRMStuff
 
 # Render requires apps to bind to $PORT
 ENV PORT=123
 EXPOSE 123
 
 # Start app
-CMD ["./o11v2Free"]
+CMD ["./https://github.com/saver-grand/11/blob/main/o11_v22b1-DRMStuff"]
