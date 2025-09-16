@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 # Make binary executable
-RUN chmod +x ./o11_streamer
+RUN chmod +x ./o11_v22b1-DRMStuff
 
 # Render requires apps to bind to $PORT
 ENV PORT=123
