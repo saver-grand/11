@@ -1,10 +1,9 @@
 FROM ubuntu:24.04
 
-# Install dependencies including ffmpeg
+# Install dependencies (add more if needed)
 RUN apt-get update && apt-get install -y \
     ca-certificates \
     curl \
-    ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy app files into container
@@ -15,8 +14,8 @@ COPY . .
 RUN chmod +x ./o11_streamer
 
 # Render requires apps to bind to $PORT
-ENV PORT=10000
-EXPOSE 10000
+ENV PORT=123
+EXPOSE 123
 
-# Start app and bind to Render's dynamic $PORT
-CMD ["./o11_streamer", "--port", "10000"]
+# Start app
+CMD ["./o11_streamer"]
