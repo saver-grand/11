@@ -17,4 +17,4 @@ RUN chmod +x ./o11_v22b1-DRMStuff
 EXPOSE 10000
 
 # Start app and ensure it binds to $PORT
-CMD ["./o11_v22b1-DRMStuff", "--port", "$PORT"]
+CMD ["./o11_v22b1-DRMStuff"
