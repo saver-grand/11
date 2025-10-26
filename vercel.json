@@ -1,12 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "Dockerfile",
-      "use": "@vercel/docker"
-    }
-  ],
-  "env": {
-    "PORT": "10000"
-  }
+  "version": 2
 }
